@@ -2,7 +2,7 @@
 A simple Nodejs script that automaticaly creates rest api endpoints from json file containing parent/child objects
 
 
-npm i
+
 
 node server.js
 
@@ -25,6 +25,7 @@ Clone the repository
 Run npm install to install the dependencies
 Start the server with node server.js
 ```
+npm i
 node server.js
 ```
 
