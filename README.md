@@ -1,17 +1,3 @@
-# json-server
-A simple Nodejs script that automaticaly creates rest api endpoints from json file containing parent/child objects
-
-
-
-
-node server.js
-
-
-http://localhost:3000/parent-1
-
-http://localhost:3000/parent-1/child-1
-
-
 ## JSON REST API Endpoints
 This code creates REST API endpoints for a JSON file containing parent/child objects.
 
@@ -45,10 +31,12 @@ Here's an example of a request to get the parent object with ID parent-1:
 
 ```
 GET /parent-1 HTTP/1.1
+http://localhost:3000/parent-1
 ```
 And here's an example of a request to get the child object with ID child-1 under the parent object with ID parent-1:
 ```
 GET /parent-1/child-1 HTTP/1.1
+http://localhost:3000/parent-1/child-1
 ```
 
 ## License
