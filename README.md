@@ -18,7 +18,8 @@ This code creates REST API endpoints for a JSON file containing parent/child obj
 ## Prerequisites
 Node.js
 Express.js
-#Installation
+
+## Installation
 Clone the repository
 Run npm install to install the dependencies
 Start the server with node server.js
@@ -29,6 +30,7 @@ The following endpoints are created:
 
 GET /parent-id: returns the parent object with the specified ID
 GET /parent-id/child-id: returns the child object with the specified ID under the parent object with the specified ID
+
 ## Configuration
 The JSON file containing the parent/child objects is located at ./data.json. Modify this file to change the data returned by the API endpoints.
 
