@@ -7,6 +7,6 @@ npm i
 node server.js
 
 
-localhost:3000/parent-1
+http://localhost:3000/parent-1
 
 http://localhost:3000/parent-1/child-1
